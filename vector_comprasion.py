@@ -1,7 +1,7 @@
 
 class Vector3D:
     def __init__(self,x,y,z): # 변수 x,y,z
-        self.x=x #언더바 두개쓰면 외부에서 호출 못해요 self.__x 이런거
+        self.x=x 
         self.y=y #생성자 만들기
         self.z=z
 
@@ -13,7 +13,7 @@ class Vector3D:
         else :
             return 'Vectors are different'
 
-v1=Vector3D(1,2,3)
-v2=Vector3D(1,2,4)
+# v1=Vector3D(1,2,3)
+# v2=Vector3D(1,2,4)
 
-print(v1==v2)
+# print(v1==v2)

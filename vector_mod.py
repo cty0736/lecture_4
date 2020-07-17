@@ -6,18 +6,18 @@ class Vector3D:
         self.y=y #생성자 만들기
         self.z=z
 
-
     def __str__(self): #문자열로 출력하려면 사용, 반환 어떻게 하는 지 만든 것
         return '({},{},{})'.format(self.x, self.y, self.z)
+        
     def __mod__(self,other):
         return Vector3D(self.x % other.x, self.y % other.y, self.z % other.z)
     def mod(self,other):
         return Vector3D(self.x % other.x, self.y % other.y, self.z % other.z)    
 
-v1=Vector3D(3,4,7)
-v2=Vector3D(10,20,30)
+# v1=Vector3D(3,4,7) # 클래스 이용 필수 
+# v2=Vector3D(10,20,30)
 
-v3= v2%v1
-v4=v2.mod(v1)
-print(v3)
-print(v4)
+# v3= v2%v1
+# v4=v2.mod(v1)
+# print(v3)
+# print(v4)

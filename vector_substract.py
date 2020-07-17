@@ -17,10 +17,10 @@ class Vector3D:
         return Vector3D(self.x -other.x,self.y -other.y,self.z -other.z)    
     
 
-v1 = Vector3D(10,20,30)
-v2 = Vector3D(15,25,35)
-v4=v1-v2
-v3 = v1.sub(v2)
-print(v3)
-print(v4)
+# v1 = Vector3D(10,20,30)
+# v2 = Vector3D(15,25,35)
+# v4=v1-v2
+# v3 = v1.sub(v2)
+# print(v3)
+# print(v4)
 
